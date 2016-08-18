@@ -1,6 +1,6 @@
 angular.module('dollCart', [])
 
-.controller('dollCart', function($scope) {
+.controller('dollCtrl', function($scope) {
 
     $scope.dolls = "Barbie";
 });
