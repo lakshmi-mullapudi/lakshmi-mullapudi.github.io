@@ -1,0 +1,15 @@
+ html, body {
+        height: 100%;
+        margin: 0px;
+    }
+
+.bgImage{
+background-image: url("images/background.jpg");
+height: 100%;
+}
+.pgContent{
+	margin-right:5%;
+	margin-left:5%;
+	background-color: white;
+	height:90%;
+}
