@@ -1,6 +1,7 @@
  html, body {
         height: 100%;
         margin: 0px;
+        width:100%;
     }
 
 .bgImage{
@@ -12,4 +13,13 @@ height: 100%;
 	margin-left:5%;
 	background-color: white;
 	height:90%;
+	width:90%;
+}
+.menuContent{
+	padding: 3%;
+	border:2px solid #bf00ff;
+	box-shadow: 10px 10px 5px grey;
+}
+.menuItems{
+display: block;
 }

@@ -17,7 +17,24 @@
 <body ng-app="dollCart" class="bgImage">
 
 <div ng-controller="dollCtrl" class="pgContent">
-	
+
+ <nav role="navigation" class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand ">Knowledge Center</a>
+        </div>       
+    </nav>
+
+	<ul class="col-md-2 menuContent">
+		<li class="menuItems" ng-repeat="menu in menuItems"><a>{{menu}}</a></li>
+	</ul>
+	<div class="col-md-10"></div>
 </div>
  
 
